@@ -1,0 +1,96 @@
+starting...
+converting edge list to a graph...
+finished importing the graph. It has 15 nodes and 29 edges
+calculating the pagerank values...
+creating a Google matrix...
+[[0.06666667 0.06666667 0.06666667 0.06666667 0.06666667 0.06666667
+  0.06666667 0.06666667 0.06666667 0.06666667 0.06666667 0.06666667
+  0.06666667 0.06666667 0.06666667]
+ [0.01       0.86       0.01       0.01       0.01       0.01
+  0.01       0.01       0.01       0.01       0.01       0.01
+  0.01       0.01       0.01      ]
+ [0.01       0.01       0.86       0.01       0.01       0.01
+  0.01       0.01       0.01       0.01       0.01       0.01
+  0.01       0.01       0.01      ]
+ [0.01       0.01       0.01       0.86       0.01       0.01
+  0.01       0.01       0.01       0.01       0.01       0.01
+  0.01       0.01       0.01      ]
+ [0.01       0.01       0.01       0.01       0.86       0.01
+  0.01       0.01       0.01       0.01       0.01       0.01
+  0.01       0.01       0.01      ]
+ [0.01       0.01       0.01       0.01       0.01       0.86
+  0.01       0.01       0.01       0.01       0.01       0.01
+  0.01       0.01       0.01      ]
+ [0.01       0.01       0.01       0.01       0.01       0.01
+  0.86       0.01       0.01       0.01       0.01       0.01
+  0.01       0.01       0.01      ]
+ [0.01       0.01       0.01       0.01       0.01       0.01
+  0.01       0.86       0.01       0.01       0.01       0.01
+  0.01       0.01       0.01      ]
+ [0.01       0.01       0.01       0.01       0.01       0.01
+  0.01       0.01       0.86       0.01       0.01       0.01
+  0.01       0.01       0.01      ]
+ [0.01       0.01       0.01       0.01       0.01       0.01
+  0.01       0.01       0.01       0.86       0.01       0.01
+  0.01       0.01       0.01      ]
+ [0.01       0.01       0.01       0.01       0.01       0.01
+  0.01       0.01       0.01       0.01       0.86       0.01
+  0.01       0.01       0.01      ]
+ [0.01       0.01       0.01       0.01       0.01       0.01
+  0.01       0.01       0.01       0.01       0.01       0.86
+  0.01       0.01       0.01      ]
+ [0.01       0.01       0.01       0.01       0.01       0.01
+  0.01       0.01       0.01       0.01       0.01       0.01
+  0.86       0.01       0.01      ]
+ [0.01       0.01       0.01       0.01       0.01       0.01
+  0.01       0.01       0.01       0.01       0.01       0.01
+  0.01       0.86       0.01      ]
+ [0.01       0.01       0.01       0.01       0.01       0.01
+  0.01       0.01       0.01       0.01       0.01       0.01
+  0.01       0.01       0.86      ]]
+Starting the code for a square matrix of size 15 and count of 10
+calculating g_r...
+calculating the eigenvalues...
+calculating q_c...
+calculating g_pr...
+calculating g_qr...
+calculating g_qr...
+calculating g_ss_x...
+(5, 5) (5, 5)
+calculating the sum...
+(5, 5) (5, 10)
+calculating the product...
+finished calculating g_qr
+calculating g_r...
+saving the results to files
+finished calculating g_r, g_rr, g_pr, and g_qr for the file 1_karl_carstens_0_edges.csv.
+it took 0.5577528476715088 seconds to run the program
+starting...
+converting edge list to a graph...
+finished importing the graph. It has 76 nodes and 151 edges
+calculating the pagerank values...
+creating a Google matrix...
+[[0.01315789 0.01315789 0.01315789 ... 0.01315789 0.01315789 0.01315789]
+ [0.00197368 0.85197368 0.00197368 ... 0.00197368 0.00197368 0.00197368]
+ [0.00197368 0.00197368 0.85197368 ... 0.00197368 0.00197368 0.00197368]
+ ...
+ [0.00197368 0.00197368 0.00197368 ... 0.85197368 0.00197368 0.00197368]
+ [0.00197368 0.00197368 0.00197368 ... 0.00197368 0.85197368 0.00197368]
+ [0.00197368 0.00197368 0.00197368 ... 0.00197368 0.00197368 0.85197368]]
+Starting the code for a square matrix of size 76 and count of 10
+calculating g_r...
+calculating the eigenvalues...
+calculating q_c...
+calculating g_pr...
+calculating g_qr...
+calculating g_qr...
+calculating g_ss_x...
+(66, 66) (66, 66)
+calculating the sum...
+(66, 66) (66, 10)
+calculating the product...
+finished calculating g_qr
+calculating g_r...
+saving the results to files
+finished calculating g_r, g_rr, g_pr, and g_qr for the file 1_karl_carstens_0_edges.csv.
+it took 0.565427303314209 seconds to run the program
